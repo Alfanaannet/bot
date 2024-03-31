@@ -34,11 +34,11 @@ services:
     # Please refer to the documentation:
     # https://discordtickets.app/self-hosting/configuration/#environment-variables
     environment:
-      DB_CONNECTION_URL: mysql://tickets:insecure@mysql/tickets # change `insecure` to the MYSQL_PASSWORD you set above
-      DISCORD_SECRET: # required
-      DISCORD_TOKEN: # required
+      DB_CONNECTION_URL:  # change `insecure` to the MYSQL_PASSWORD you set above
+      DISCORD_SECRET: nT83BsiGOq_cv3mB6daWXlmCd3YtecVp # required
+      DISCORD_TOKEN:  # required
       ENCRYPTION_KEY: # required
-      DB_PROVIDER: mysql
+      DB_PROVIDER: sqlite
       HTTP_EXTERNAL: http://127.0.0.1:8169 # change this to your server's external IP (or domain)
       HTTP_HOST: 0.0.0.0
       HTTP_INTERNAL:
